@@ -1,0 +1,218 @@
+#homediv{
+  font-family: 'Quicksand', sans-serif;
+}
+#DetailDiv,#itemdiv{
+  font-family: 'Quicksand', sans-serif;
+}
+#maincart{
+  font-family: 'Quicksand', sans-serif;
+}
+#mainnav{
+  font-size: 23px;
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+}
+#mainnav NavLink{
+  color: black;
+}
+#mainfig{
+  max-height: 470px;
+}
+
+#cflinks a{
+  opacity: 0;
+}
+
+#mainfig:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: cubic-bezier(0.39, 0.575, 0.565, 1) 0.4s;
+}
+#mainfig button{
+  opacity: 0;
+}
+#mainfig:hover #cflinks a{
+  opacity: 1;
+
+  transition: ease-in-out 0.3s;
+}
+
+#mainfig:hover button{
+  opacity: 1;
+
+  transition: ease-in-out 0.3s;
+}
+
+#pdboxmaindiv div{
+  border: 1px solid rgb(175, 171, 171);
+}
+
+#pdboxmaindiv div:hover{
+ border: 2px solid black;
+ transition: ease-in-out 0.3s;
+}
+
+#secondone{
+  background-color: rgb(248, 253, 243);
+}
+
+#thirdone{
+ background-color: #fff8dc;
+}
+#fourthone{
+  background-color: honeydew;
+ }
+#fifthone{
+ background-color: honeydew;
+}
+
+#first{
+  color: #7fff00;
+}
+
+#actualpspan{
+  font-size: 17px;
+  color: grey;
+}
+
+#mpbutton{
+  border-radius: 40px;
+}
+#myVideo {
+ 
+  right: 0;
+  bottom: 0;
+  max-width: 100%; 
+  
+}
+
+#emailinput{
+  border-width: 0 0 2px 0;
+  font-size: 30px;
+  background-color: transparent;
+}
+
+#aboutimage{
+  position: absolute;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+  background-blend-mode: lighten;
+}
+
+#first{
+  align-items: center;
+  justify-content: center;
+  margin-top: 12%;
+  position: relative;
+  font-size: 80px;
+  font-family: 'Quicksand', sans-serif;
+}
+#firsth3{
+  color: bisque;
+  font-family: 'Quicksand', sans-serif;
+}
+#aboutfirst{
+  margin-top: 30%;
+  font-family: 'Quicksand', sans-serif;
+}
+#aboutmain{
+  position: absolute;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#aboutmain input{
+  border: 2px solid greenyellow;
+ 
+}
+#aboutmain{
+  background-color: #fafad2;
+  overflow-x: hidden;
+}
+#aboutmain textarea{
+  border: 2px solid greenyellow;
+}
+
+#storeh1{
+  font-family: 'Quicksand', sans-serif;
+}
+
+#secondh{
+  /* align-items: center;
+  justify-content: center; */
+  /* margin-top: 12%; */
+  position: relative;
+}
+
+#emailinput:focus{
+  box-shadow: none;
+}
+
+#loader{
+  size: 20em;
+}
+
+#mainsection{
+  max-width: 70%;
+  /* background-color: white; */
+  border-radius: 15px;
+  /* background-color: moccasin; */
+  position: relative;
+  z-index: 6;
+}
+#fulldiv{
+  font-family: 'Quicksand', sans-serif;
+  background: url("./Images/bgflower.jpg");
+  background-size: cover;
+  margin: 0%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#rowdiv{
+  
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#uparrow button{
+ border-radius: 50%;
+}
+#mainform input{
+  background-color: transparent;
+  padding: 20px;
+  
+  border-width: 0 0 2px 0;
+  border-color: #ffffff;
+  color: black;
+}
+
+#lastbg{
+  width: 100%;
+  min-height: 140vh;
+  position: absolute;
+}
+
+#thanksbg{
+  position: relative;
+  max-height: 50vh;
+  width: auto;
+  margin-top: 5%
+}
+
+#lastdiv h2{
+  position: relative;
+  font-family: 'Tangerine', cursive;
+  color: bisque;
+  font-size: 70px;
+}
+
+#toast{
+  background-color: black;
+}
+
+#ci-indicators li{
+  background-color: red;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+
+#ci-indicators li .active{
+  background-color: black;
+}
